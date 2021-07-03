@@ -3,6 +3,8 @@ title: Abilities
 description: ''
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
+
 # ABILITIES
 
 A fighter can also use 1 ability during its activation if the player activating that fighter has sufficient ability dice. The ability can be used either before the first action or after the first or second actions made by that fighter.
@@ -19,7 +21,7 @@ If an ability lets a fighter make any bonus actions, these are actions in additi
 
 ## RUNEMARKS
 
-Some abilities can only be used by fighters with certain runemarks. Any runemarks required will be shown to the left of the ability on the ability card. For example, the Inspiring Presence ability (see below) can only be used by fighters with the Leader runemark ( ). The runemarks a fighter has can be found on their fighter card (pg 34).
+Some abilities can only be used by fighters with certain runemarks. Any runemarks required will be shown to the left of the ability on the ability card. For example, the Inspiring Presence ability (see below) can only be used by fighters with the <Runemark mark="Leader" /> runemark. The runemarks a fighter has can be found on their fighter card (pg 34).
 
 ## DESPERATE LAST STAND
 

@@ -94,7 +94,14 @@ module.exports = {
         }
       }
     },
-
+    {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'MarkdownPage',
+        baseDir: './content',
+        template: './src/templates/MarkdownPage.vue'
+      }
+    },
     {
       use: 'gridsome-plugin-tailwindcss',
       options: {

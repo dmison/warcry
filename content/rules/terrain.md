@@ -3,6 +3,8 @@ title: 'Terrain'
 description: ''
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
+
 # TERRAIN
 
 During any battle there will be 1 or more terrain features on the battlefield, as dictated by the terrain card in play. Fighters can interact with terrain features in numerous ways when making move actions (pg 41). This section introduces the other interactions fighters can have with terrain features, and also describes the unique types of terrain features. 
@@ -29,7 +31,7 @@ When an attack action targets an enemy fighter that is on a platform, the target
 
 When an attack action targets an enemy fighter that is within 1⁄2" of the edge of a platform that is open (i.e. an edge that is not enclosed by an obstacle, such as a wall) and scores any critical hits, the target fighter of that attack must take a falling test after the attack action has been resolved. To do so, the player controlling that fighter rolls a dice. On a 1, the fighter is said to have fallen (pg 42). 
 
-This rule does not affect fighters with the Fly runemark ( ). 
+This rule does not affect fighters with the <Runemark mark="Fly" /> runemark. 
 
 ## DEADLY TERRAIN 
 
@@ -63,10 +65,12 @@ When fighters move through archways and doors, all other movement rules must sti
 ### RESTRICTIONS 
 
 Fighters with any of the following runemarks cannot move through archways: 
- - Gargantuan
- - Mount 
+
+- <Runemark mark="Gargantuan" />
+- <Runemark mark="Mount" /> 
 
 Fighters with any of the following runemarks cannot move through doors: 
- - Gargantuan
-  - Mount
-  - Beast 
+
+- <Runemark mark="Gargantuan" />
+- <Runemark mark="Mount" />
+- <Runemark mark="Beast" /> 

@@ -7,11 +7,15 @@
         </div>
 
         <div class="order-1 w-full md:w-2/3">
-          <div class="content" v-html="$page.markdownPage.content" />
-
-          <div class="mt-8 pt-8 lg:mt-12 lg:pt-12 border-t border-ui-border">
-            <NextPrevLinks />
+          <div class="content" >
+          <VueRemarkContent />
           </div>
+          <div class="mt-8 pt-8 lg:mt-12 lg:pt-12 border-t border-ui-border">
+          <sources :sources="$page.markdownPage.sources" />
+          </div>
+<!--          <div class="mt-8 pt-8 lg:mt-12 lg:pt-12 border-t border-ui-border">-->
+<!--            <NextPrevLinks />-->
+<!--          </div>-->
         </div>
 
       </div>
@@ -19,6 +23,7 @@
 </template>
 <!--next-->
 <!--prev-->
+<!--    timeToRead-->
 
 <page-query>
 query ($id: ID!) {
@@ -27,9 +32,12 @@ query ($id: ID!) {
     title
     description
     path
-    timeToRead
     content
     sidebar
+    sources {
+      book
+      page
+    }
     headings {
       depth
       value
@@ -50,11 +58,14 @@ query ($id: ID!) {
 <script>
 import OnThisPage from '@/components/OnThisPage.vue';
 import NextPrevLinks from '@/components/NextPrevLinks.vue';
+import Sources from '@/components/Sources.vue';
 
 export default {
   components: {
     OnThisPage,
-    NextPrevLinks
+    NextPrevLinks,
+    Sources,
+
   },
 
   metaInfo() {

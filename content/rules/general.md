@@ -3,6 +3,8 @@ title: 'General Rules'
 description: 'some misc rules'
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
+
 # GENERAL RULES
 
 ## RE-ROLLS
@@ -45,7 +47,7 @@ You can find a list of the different runemarks on pages 50-51.
 
 ## LEADERS
 
-In every warband there will be one fighter with the Leader runemark ( ). If a rule refers to the leader of a warband, it is referring to the fighter with that runemark.
+In every warband there will be one fighter with the <Runemark mark="leader" /> runemark. If a rule refers to the leader of a warband, it is referring to the fighter with that runemark.
 
 ## SEQUENCING
 

@@ -3,6 +3,7 @@ title: 'Move'
 description: ''
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
 
 # MOVE ACTION
 
@@ -33,13 +34,13 @@ If a fighter finishes their move action in the air, immediately move them vertic
 
 ## FLYING 
 
-Fighters with the Fly runemark ( ) can fly as part of a move action. If they do so, the fighter can move through the air vertically and horizontally. Count the horizontal distance moved towards the number of inches that fighter can move in total in that move action as normal, but do not count the distance moved vertically. Once a fighter begins to fly, they are said to be flying until the centre of their base is on the battlefield floor or a platform. A fighter cannot end a move action flying.
+Fighters with the <Runemark mark="Fly" /> runemark can fly as part of a move action. If they do so, the fighter can move through the air vertically and horizontally. Count the horizontal distance moved towards the number of inches that fighter can move in total in that move action as normal, but do not count the distance moved vertically. Once a fighter begins to fly, they are said to be flying until the centre of their base is on the battlefield floor or a platform. A fighter cannot end a move action flying.
 
 ## CLIMBING
 
 If a fighter is touching a part of a terrain feature defined as an obstacle (pg 46), that fighter can begin to climb. If they do so, that fighter can move vertically up or down that terrain feature (and also horizontally once at the top). Once a fighter begins to climb, they are said to be climbing until the centre of their base is on the battlefield floor or a platform.
 
-Fighters with the Mount runemark ( ) cannot climb.
+Fighters with the <Runemark mark="Mount" /> runemark cannot climb.
 
 ## Falling
 

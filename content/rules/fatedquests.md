@@ -1,8 +1,9 @@
 ---
 title: Fated Quests
 sidebar: rules
-sourcebook: 'Monsters and Mercenaries'
-sourcepage: 22
+sources:
+    - book: 'Monsters and Mercenaries'
+      page: 22
 ---
 
 # FATED QUESTS

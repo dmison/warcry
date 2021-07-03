@@ -2,6 +2,8 @@
 title: Aftermath Sequence
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
+
 ## AFTERMATH SEQUENCE
 
 After each campaign battle has ended, both players must complete a series of steps referred to as the aftermath sequence. It is best for both players to do this immediately after the battle has finished, as it is required that each player witnesses the aftermath sequence of the other.
@@ -65,7 +67,7 @@ This will free up a space on your warband roster to add a new fighter (see oppos
 6+ Full Recovery
 
 #### DESTINED FOR GREATNESS
-If you roll the ‘Slain’ result for a fighter with the Leader runemark ( ), that fighter does not die. Instead treat the result as ‘Lost Favour’.
+If you roll the ‘Slain’ result for a fighter with the <Runemark mark="Leader" /> runemark, that fighter does not die. Instead treat the result as ‘Lost Favour’.
 
 #### LOST FAVOUR
 If you roll the ‘Lost Favour’ result for a fighter that has gained any destiny levels, they lose one of those destiny levels. Otherwise, it has no effect.

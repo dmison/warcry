@@ -3,6 +3,8 @@ title: 'Setting up a battle'
 description: ''
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
+
 # SETTING UP A BATTLE 
 
 > Blades glint in the sun and war cries split the air as two rival bands of killers face off. Only one can emerge victorious – for the defeated there is only ignominy and death. 
@@ -23,7 +25,7 @@ Each player in a Warcry battle controls a warband of fighters. When first settin
 1. The warband must include at least 3 and no more than 15 fighters. 
 2. The combined points value of all the fighters in a player’s warband cannot exceed 1000. 
 3. All fighters in a player’s warband must share the same faction runemark. 
-4. The warband must include 1 fighter with the Leader runemark ( ) and cannot include more than 1 fighter with the Leader runemark ( ). 
+4. The warband must include 1 fighter with the <Runemark mark="Leader" /> runemark and cannot include more than 1 fighter with the <Runemark mark="Leader" /> runemark. 
 Once both players have mustered their warbands, they reveal their warbands to each other.
 
 ## THE PRIORITY ROLL 

@@ -3,11 +3,13 @@ title: 'Monsters'
 description: ''
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
+
 # MONSTERS
 
 > The Eigbtpoints is home to more than just corrupted tribesmen. Monsters and beasts of all kinds dwell in this tainted land; the strongest warbands seek to bind such creatures to their will, though that is easier said than done...
 
-A monster is a fighter with the `GARGANTUAN` runemark.
+A monster is a fighter with the <Runemark mark="GARGANTUAN" /> runemark.
 
 Monsters are subject to the following rules:
 
@@ -44,9 +46,9 @@ If any monsters are in play, all fighters except the monsters themselves and fig
 
 | DICE | Monster Ability | Description |
 | :- | :- | :- |
-| Double | Binding Ropes | Pick any enemy fighter with the `GARGANTUAN` runemark within 1 inch of this figher and roll a number of dice equal to the value of this ability. For each 4+, subtract 1 from the Move characteristic of that fighter (to a minimum of 3) until the end of the battle |
-| Double | Dodge and Evade | Until the end of the battle round, add the value of this ability to the Toughness characteristic of this fighter when it is being targeted by an attack action made by a fighter with the `GARGANTUAN` runemark. | 
-| Double | Jump on its Back | Pick an enemy fighter with the `GARGANTUAN` runemark. Until the end of the battle round, if that fighter starts a move action within l" of this fighter, then after that move action, you can remove this fighter from the battle field and set them up within 1 inch of that fighter. |
-| Triple | Go for the Eyes | If the next attack action made by this fighter this activation that targets an enemy fighter with the Gargantuan runemark (0) scores any critical hits, subtract l from the Attacks characteristic (to a minimum of 1) of attack actions made by that fighter until the end of the battle. |
-| Triple | Gutting Strike | Add the value of this ability to the damage points allocated by each critical hit from attack actions made by this fighter this activation that have a Range characteristic of 3 or less and that target an enemy fighter with the `GARGANTUAN` runemark. |
-| Quad | Taunt | Pick a visible enemy fighter with the `GARGANTUAN` runemark that is within 6" of this fighter and roll a number of dice equal to the value of this ability. If a 4+ is rolled on any of the dice, then until the end of the battle round or until this fighter is taken down, attack actions made by that fighter must target this fighter. |
+| Double | Binding Ropes | Pick any enemy fighter with the <Runemark mark="GARGANTUAN" /> runemark within 1 inch of this figher and roll a number of dice equal to the value of this ability. For each 4+, subtract 1 from the Move characteristic of that fighter (to a minimum of 3) until the end of the battle |
+| Double | Dodge and Evade | Until the end of the battle round, add the value of this ability to the Toughness characteristic of this fighter when it is being targeted by an attack action made by a fighter with the <Runemark mark="GARGANTUAN" /> runemark. | 
+| Double | Jump on its Back | Pick an enemy fighter with the <Runemark mark="GARGANTUAN" /> runemark. Until the end of the battle round, if that fighter starts a move action within l" of this fighter, then after that move action, you can remove this fighter from the battle field and set them up within 1 inch of that fighter. |
+| Triple | Go for the Eyes | If the next attack action made by this fighter this activation that targets an enemy fighter with the <Runemark mark="GARGANTUAN" /> runemark scores any critical hits, subtract l from the Attacks characteristic (to a minimum of 1) of attack actions made by that fighter until the end of the battle. |
+| Triple | Gutting Strike | Add the value of this ability to the damage points allocated by each critical hit from attack actions made by this fighter this activation that have a Range characteristic of 3 or less and that target an enemy fighter with the <Runemark mark="GARGANTUAN" /> runemark. |
+| Quad | Taunt | Pick a visible enemy fighter with the <Runemark mark="GARGANTUAN" /> runemark that is within 6" of this fighter and roll a number of dice equal to the value of this ability. If a 4+ is rolled on any of the dice, then until the end of the battle round or until this fighter is taken down, attack actions made by that fighter must target this fighter. |

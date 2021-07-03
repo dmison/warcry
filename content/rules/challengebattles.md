@@ -1,7 +1,8 @@
 ---
 title: 'Challenge Battles'
-sourcebook: 'Tome of Champions 2019'
-sourcepage: 68
+sources:
+    - book: 'Tome of Champions 2019'
+      page: 68
 sidebar: rules
 ---
 

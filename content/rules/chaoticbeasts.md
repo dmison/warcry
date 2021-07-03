@@ -3,11 +3,13 @@ title: 'Chaotic Beasts'
 description: ''
 sidebar: 'rules'
 ---
+import Runemark from '@/components/Runemark.vue'
+
 # CHAOTIC BEASTS
 
 > The corrupting power of Chaos has fully defiled the Eightpoints over the course of centuries, transforming flora and fauna alike into unnatural, mutated abominations. Many of the beasts that make their lairs in the lands around the Varanspire are little more than frenzied monsters, but others possess an unsettling cunning, and will even follow a warband into battle in return for fresh meat or some other, darker incentive.
 
-A fighter with the faction runemark on their fighter card is referred to as a chaotic beast. A chaotic beast is a type of fighter that belongs to no player’s warband. Chaotic beasts will come into play during a battle when twist cards with the `WILD CREATURES` runemark are drawn. Like all other fighters, chaotic beasts each have a fighter card that details their characteristics and weapons, and an ability card.
+A fighter with the <Runemark mark="Chaotic Beast" /> faction runemark on their fighter card is referred to as a chaotic beast. A chaotic beast is a type of fighter that belongs to no player’s warband. Chaotic beasts will come into play during a battle when twist cards with the <Runemark mark="WILD CREATURES" /> runemark are drawn. Like all other fighters, chaotic beasts each have a fighter card that details their characteristics and weapons, and an ability card.
 
 Each twist card will explain if and how any chaotic beasts are set up on the battlefield. During a battle, if there are any chaotic beasts on the battlefield, use the following rules:
 

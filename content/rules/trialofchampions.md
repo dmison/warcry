@@ -1,9 +1,11 @@
 ---
 title: Trial of Champions
 sidebar: rules
-sourcebook: Tome of Champions 2019
-sourcepage: 78
+sources:
+ - book: Tome of Champions 2019
+   page: 78
 ---
+import Runemark from '@/components/Runemark.vue'
 
 # TRIAL OF CHAMPIONS
 
@@ -52,19 +54,19 @@ During the aftermath sequence, each time you spend 10 glory points to dominate a
 | 61-63 | CHAOTIC NEXUS |
 | 64-66 | HIDDEN STORMVAULT |
 
-#### NOTHING OF NOTE
+### NOTHING OF NOTE
 
 > Your warriors travel far and wide across this territory but return empty-handed.
 
 This area of dominated territory has no special rule.
 
-#### OLD RUINS
+### OLD RUINS
 
 > A scattering of ancient ruins lie in the sun-blasted sands south of your camp. Sending your warriors scavenging amidst them does not yield much.
 
 During the aftermath sequence of a campaign battle, when earning glory points, roll a dice for each area of dominated territory you have with this rule. For each 4+, you earn 1 additional glory point
  
-#### CRUMBLING CATACOMBS
+### CRUMBLING CATACOMBS
 
 > Whether the necropolis of a long-dead king or an entire underground city, these long-lost catacombs
 may yet yield a few secrets to those who claim them.
@@ -108,23 +110,37 @@ In champion mode, when making injury rolls for your fighters, use the table belo
 
 On a roll of 14-23, your fighter sustains an injury. An injury is a rule that affects your fighter in future campaign battles. If a fighter sustains an injury, note it down on your warband roster (you can find a new warband roster for champion mode at ageofsigmar.com/warcry).
 
-Injuries can be either [permanent] or [temporary]. If an injury is [permanent], the fighter will have it forever (unless a lesser artefact is used to remove it). If an injury is [temporary], at the start of the aftermath sequence of each subsequent campaign battle, roll a dice. On a 1-3, the injury persists. On a 4+, the injury is removed.
+Injuries can be either `permanent` or `temporary`. If an injury is `permanent`, the fighter will have it forever (unless a lesser artefact is used to remove it). If an injury is `temporary`, at the start of the aftermath sequence of each subsequent campaign battle, roll a dice. On a 1-3, the injury persists. On a 4+, the injury is removed.
 
 A fighter can only have one of each injury at any one time. If a fighter already has a certain injury, treat subsequent rolls of the same injury as ‘Lost Favour’ instead.
 
-Fighters with the Leader runemark ( ) can only sustain [temporary] injuries. If your leader sustains an injury, do not roll a dice to see if the injury is [permanent] or [temporary].
+Fighters with the <Runemark mark="leader" /> can only sustain `temporary` injuries. If your leader sustains an injury, do not roll a dice to see if the injury is `permanent` or `temporary`.
 
 | D66 | CRITICAL INJURY |
 | :-: | :- |
-11-13 SLAIN
-| 14 | GUT WOUND
+| 11-13 | SLAIN |
+| 14 | GUT WOUND |
+| 15 | CRACKED RIB |
+| 16 | BLINDED IN ONE EYE |
+| 21 | FRACTURED ARM |
+| 22 | BROKEN LEG |
+| 23 | CONCUSSION |
+| 24-36 | LOST FAVOUR |
+| 41-65 | FULL RECOVERY |
+| 66 | SURVIVE AGAINST THE ODDS |
 
-SLAIN
-GUT WOUND
- This warrior has sustained a brutal injury that
-could yet spell the end of them.
+#### SLAIN
+> This warrior’s saga has come to a sudden end
+
+Remove this fighter from your warband roster. If they have any lesser artefacts or artefacts of power, these are lost. If this fighter has the <Runemark mark="leader"/> runemark, treat this result as ‘Lost Favour’ instead.
+ 
+#### GUT WOUND
+
+This warrior has sustained a brutal injury that could yet spell the end of them.
 
 Breathing is difficult for this warrior and even the lightest blow sends pain shooting through them.
-BLINDED IN ONE EYE
+
+#### BLINDED IN ONE EYE
 While not as outwardly crippling as some, this wound can make all the difference in the heat of battle.
-FRACTURED ARM
+
+#### FRACTURED ARM
