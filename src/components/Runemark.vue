@@ -1,5 +1,5 @@
 <template>
-<span class="bg-gray-200 font-bold p-1">
+<span class="bg-gray-200 font-bold p-runemark ">
   <span class="runemark">{{runemark}}</span>&nbsp;<span class="mark">{{icon}}</span>
 </span>
 </template>
@@ -26,7 +26,8 @@ export default {
         'GARGANTUAN': '',
         'MOUNT': '.',
         'BEAST': 's',
-        'CHAOTIC BEAST': 'j'
+        'CHAOTIC BEAST': 'j',
+        'THRALL': '/',
       }
     }
   }
@@ -50,4 +51,7 @@ span.runemark {
 
 }
 
+.p-runemark {
+  padding: 1px 5px;
+}
 </style>
