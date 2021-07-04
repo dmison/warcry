@@ -2,6 +2,10 @@
 title: 'Attack'
 description: ''
 sidebar: 'rules'
+sources:
+  - book: Core Rules
+    page: "44"
+
 ---
 
 # ATTACK ACTION

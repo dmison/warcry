@@ -3,7 +3,7 @@
     <h3 class="pt-0 mt-0 text-sm tracking-wide uppercase border-none">Sources</h3>
     <div>
       <ul>
-        <li v-for="source in sources" :key="`${source.book}_${source.page}`" class="flex space-x-3">
+        <li v-for="(source, index) in sources" :key="index" class="flex space-x-3">
           <span >{{source.book}}</span>
           <span>P{{source.page}}</span>
       </li>

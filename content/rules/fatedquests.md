@@ -3,7 +3,7 @@ title: Fated Quests
 sidebar: rules
 sources:
     - book: 'Monsters and Mercenaries'
-      page: 22
+      page: "22"
 ---
 
 # FATED QUESTS

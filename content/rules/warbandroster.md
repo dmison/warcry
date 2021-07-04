@@ -1,6 +1,9 @@
 ---
 title: Warband Roster
 sidebar: rules
+sources:
+- book: Core Rules
+  page: "64"
 ---
 import Runemark from '@/components/Runemark.vue'
 # WARBAND ROSTER

@@ -2,6 +2,9 @@
 title: Abilities
 description: ''
 sidebar: 'rules'
+sources:
+ - book: Core Rules
+   page: "40"
 ---
 import Runemark from '@/components/Runemark.vue'
 

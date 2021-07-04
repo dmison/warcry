@@ -2,6 +2,9 @@
 title: 'Thralls'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "49"
 ---
 import Runemark from '@/components/Runemark.vue'
 

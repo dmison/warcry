@@ -1,6 +1,10 @@
 ---
 title: 'Campaign Battles'
 sidebar: rules
+sources:
+- book: Core Rules
+  page: "65"
+
 ---
 # PLAYING A CAMPAIGN BATTLE
 

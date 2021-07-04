@@ -3,7 +3,7 @@ title: Trial of Champions
 sidebar: rules
 sources:
  - book: Tome of Champions 2019
-   page: 78
+   page: "78"
 ---
 import Runemark from '@/components/Runemark.vue'
 

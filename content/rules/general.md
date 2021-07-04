@@ -2,6 +2,9 @@
 title: 'General Rules'
 description: 'some misc rules'
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "35, 37, 40"
 ---
 import Runemark from '@/components/Runemark.vue'
 

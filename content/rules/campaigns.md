@@ -2,6 +2,9 @@
 title: 'About Campaigns'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "63"
 ---
 
 # CAMPAIGNS

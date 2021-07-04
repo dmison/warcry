@@ -2,6 +2,9 @@
 title: 'Disengage'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "45"
 ---
 # DISENGAGE ACTION
 

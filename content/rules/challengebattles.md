@@ -2,7 +2,7 @@
 title: 'Challenge Battles'
 sources:
     - book: 'Tome of Champions 2019'
-      page: 68
+      page: "68"
 sidebar: rules
 ---
 

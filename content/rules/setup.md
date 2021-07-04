@@ -2,6 +2,9 @@
 title: 'Setting up a battle'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "36,37"
 ---
 import Runemark from '@/components/Runemark.vue'
 

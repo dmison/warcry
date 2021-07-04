@@ -2,6 +2,9 @@
 title: 'Move'
 description: ''
 sidebar: 'rules'
+sources:
+- book: "Core Rules"
+  page: "41,42"
 ---
 import Runemark from '@/components/Runemark.vue'
 

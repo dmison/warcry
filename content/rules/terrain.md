@@ -2,6 +2,9 @@
 title: 'Terrain'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "46,47"
 ---
 import Runemark from '@/components/Runemark.vue'
 

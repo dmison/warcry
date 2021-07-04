@@ -1,6 +1,9 @@
 ---
 title: Campaign Quests
 sidebar: rules
+sources:
+- book: Core Rules
+  page: "63"
 ---
 
 # CAMPAIGN QUESTS

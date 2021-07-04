@@ -2,6 +2,10 @@
 title: 'The Battle Round'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "38,39"
+
 ---
 
 # THE BATTLE ROUND

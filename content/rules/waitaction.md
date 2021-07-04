@@ -2,6 +2,9 @@
 title: 'Wait'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "45"
 ---
 # WAIT ACTION
 

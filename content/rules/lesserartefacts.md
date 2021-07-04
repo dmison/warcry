@@ -2,6 +2,9 @@
 title: 'Lesser Artefacts'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "68,69"
 ---
 # LESSER ARTEFACTS
 

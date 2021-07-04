@@ -2,6 +2,10 @@
 title: 'Chaotic Beasts'
 description: ''
 sidebar: 'rules'
+sources:
+- book: Core Rules
+  page: "48"
+
 ---
 import Runemark from '@/components/Runemark.vue'
 
