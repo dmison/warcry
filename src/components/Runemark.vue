@@ -1,7 +1,7 @@
 <template>
-<span class="bg-gray-200 font-bold p-runemark ">
-  <span class="runemark">{{runemark}}</span>&nbsp;<span class="mark">{{icon}}</span>
-</span>
+  <span class="font-bold p-runemark ">
+    <span class="runemark">{{runemark}}</span>&nbsp;<span class="mark">{{icon}}</span>
+  </span>
 </template>
 
 <script>
