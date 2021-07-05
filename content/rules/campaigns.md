@@ -1,10 +1,11 @@
 ---
 title: 'About Campaigns'
 description: ''
-sidebar: 'rules'
+sidebar: "rules"
+
 sources:
-- book: Core Rules
-  page: "63"
+ - book: Warcry Core Rules
+   page: "63"
 ---
 
 # CAMPAIGNS

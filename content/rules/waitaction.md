@@ -3,7 +3,7 @@ title: 'Wait'
 description: ''
 sidebar: 'rules'
 sources:
-- book: Core Rules
+- book: Warcry Core Rules
   page: "45"
 ---
 # WAIT ACTION

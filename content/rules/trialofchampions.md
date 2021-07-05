@@ -3,7 +3,7 @@ title: Trial of Champions
 sidebar: rules
 sources:
  - book: Tome of Champions 2019
-   page: "78"
+   page: "78-83"
 ---
 import Runemark from '@/components/Runemark.vue'
 
@@ -136,11 +136,100 @@ Remove this fighter from your warband roster. If they have any lesser artefacts 
  
 #### GUT WOUND
 
-This warrior has sustained a brutal injury that could yet spell the end of them.
+> This warrior has sustained a brutal injury that could yet spell the end of them.
 
-Breathing is difficult for this warrior and even the lightest blow sends pain shooting through them.
+Roll a dice. On a 1, this injury is [permanent]. On
+a 2+, this injury is [temporary]. Halve the Wounds characteristic of this fighter (rounding up) while they have this injury.
+
+#### CRACKED RIB
+
+> Breathing is difficult for this warrior and even the lightest blow sends pain shooting through them.
+
+Roll a dice. On a 1, this injury is [permanent]. On a 2+, this injury is [temporary]. Subtract 1 from the Toughness characteristic of this fighter (to a minimum of 1) while they have this injury.
 
 #### BLINDED IN ONE EYE
-While not as outwardly crippling as some, this wound can make all the difference in the heat of battle.
+
+> While not as outwardly crippling as some, this wound can make all the difference in the heat of battle.
+
+Roll a dice. On a 1, this injury is [permanent]. On a 2+, this injury is [temporary]. Subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by this fighter while they have this injury.
 
 #### FRACTURED ARM
+
+> It is difficult to wield a blade with any great precision when your arm is cracked in three places.
+
+Roll a dice. On a 1, this injury is [permanent]. On a 2+, this injury is [temporary]. Subtract 1 from the Strength characteristic (to a minimum of 1) of attack actions that have a Range characteristic of 3 or less made by this fighter while they have this injury.
+
+#### BROKEN LEG
+
+> Warriors with a damaged leg must move slowly but surely, rendering them easy prey for swifter foes.
+
+Roll a dice. On a 1, this injury is [permanent]. On a 2+, this injury is [temporary]. Subtract 1 from the Move characteristic of this fighter (to a minimum of 1) while they have this injury.
+
+#### CONCUSSION
+
+> This warrior walks through the battlefield as if in
+a daze, their skill at arms significantly impaired.
+
+Roll a dice. On a 1, this injury is [permanent]. On a 2+, this injury is [temporary]. Subtract 1 from the value of abilities used by this fighter (to a minimum of 1) while they have this injury.
+
+#### LOST FAVOUR
+
+> The gods have watched this warrior’s failure with disdain.
+
+
+This fighter loses 1 destiny level. If they do not have any destiny levels, they suffer no effects.
+
+#### FULL RECOVERY
+
+> This fighter suffers no effects.
+
+This fighter suffers no effects.
+
+
+#### SURVIVE AGAINST THE ODDS
+
+> More than luck is behind this warrior’s survival.
+
+Treat this result as ‘Full Recovery’. In addition, this fighter immediately gains 1 destiny level.
+
+
+## THE REWARDS OF CHAMPIONS
+
+In champion mode, when searching for lesser artefacts, use the lesser artefacts table below instead of the table in the Core Book.
+
+In addition to [Consumable] and [Perishable] artefacts, this table includes [Instant] artefacts. These artefacts are not given to a fighter to bear in battle. Instead, each will have an effect that is resolved immediately.
+
+| D66 | Found |
+| :-: | :- |
+| 11-16 | NOTHING BUT DUST |
+| 21 | HEALING POTION |
+| 22 | SWIFTWIND DUST |
+| 23 | SILKSTRIDER WEBBING |
+| 24 | UR-GOLD INGOT |
+| 25 | VIAL OF HEARTWOOD SAP |
+| 26 | SCROLL OF ABASOTH’S WITHERING |
+| 31 | SKIN OF FLAME-ALE |
+| 32 | JAR OF CHAMONIC GLOWFLIES |
+| 33 | CARVOLAX-SCALE ANKLET |
+| 34 | CHARM OF NINEFOLD FAVOUR |
+| 35 | HYSHIAN SWIFTFOOT SCROLL |
+| 36 | ULGUAN HEX-EIDOLON |
+| 41 | CHRONOMANTIC DIAL |
+| 42 | IRONOAK SEED |
+| 43 | GREATER HEALING POTION |
+| 44 | WANDERING SAWBONES |
+| 45 | POTION OF ONSLAUGHT |
+| 46 | ANCIENT MAP FRAGMENT |
+| 51 | GODBEAST IDOL |
+| 52 | VIAL OF JABBERSLYTHE BLOOD |
+| 53 | UR-GOLD SIGIL |
+| 54 | BLIGHT SERPENT VENOM |
+| 55 | BAUBLE OF SHADOWS |
+| 56 | FLASK OF AQUA GHYRANIS |
+| 61 | PENDANT OF BLOODGLASS |
+| 62 | RAVEN-FEATHER NECKLACE |
+| 63 | RUNE-ETCHED VAMBRACES |
+| 64 | AETHERQUARTZ PRISM |
+| 65 | LIFESTONE |
+| 66 | ASTRAL COMPASS |
+

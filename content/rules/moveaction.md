@@ -3,7 +3,7 @@ title: 'Move'
 description: ''
 sidebar: 'rules'
 sources:
-- book: "Core Rules"
+- book: "Warcry Core Rules"
   page: "41,42"
 ---
 import Runemark from '@/components/Runemark.vue'

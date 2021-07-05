@@ -4,7 +4,7 @@
     <div>
       <ul>
         <li v-for="(source, index) in sources" :key="index" class="flex space-x-3">
-          <span >{{source.book}}</span>
+          <span class="font-bold">{{source.book}}</span>
           <span>P{{source.page}}</span>
       </li>
     </ul>

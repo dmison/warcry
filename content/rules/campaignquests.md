@@ -2,7 +2,7 @@
 title: Campaign Quests
 sidebar: rules
 sources:
-- book: Core Rules
+- book: Warcry Core Rules
   page: "63"
 ---
 

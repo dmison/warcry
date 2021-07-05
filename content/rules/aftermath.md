@@ -2,8 +2,8 @@
 title: Aftermath Sequence
 sidebar: 'rules'
 sources:
-- book: Core Rules
-  page: "66,67"
+ - book: Warcry Core Rules
+   page: "66,67"
 
 ---
 import Runemark from '@/components/Runemark.vue'

@@ -3,8 +3,11 @@ title: Abilities
 description: ''
 sidebar: 'rules'
 sources:
- - book: Core Rules
+ - book: Warcry Core Rules
    page: "40"
+ - book: ERRATA & DESIGNERS’ COMMENTARIES March 2021
+   page: "1"
+
 ---
 import Runemark from '@/components/Runemark.vue'
 

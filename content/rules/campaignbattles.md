@@ -2,7 +2,7 @@
 title: 'Campaign Battles'
 sidebar: rules
 sources:
-- book: Core Rules
+- book: Warcry Core Rules
   page: "65"
 
 ---

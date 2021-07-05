@@ -2,7 +2,7 @@
 title: Warband Roster
 sidebar: rules
 sources:
-- book: Core Rules
+- book: Warcry Core Rules
   page: "64"
 ---
 import Runemark from '@/components/Runemark.vue'
@@ -22,7 +22,7 @@ Before your first campaign battle, you can add up to 20 fighters to your warband
 2.	Your warband roster cannot exceed 20 fighters.
 3.	All fighters added to your warband roster must share the same faction runemark as the campaign quest you have chosen.
 4.	Your warband roster must include 1 fighter with the
-5.	<Runemark mark="Leader"/> runemark  and cannot include more than 1 fighter with the <Runemark mark="Leader"/> runemark.
+<Runemark mark="Leader"/> runemark  and cannot include more than 1 fighter with the <Runemark mark="Leader"/> runemark.
 
 On pages 134-151 you can find background tables to help you personalise all the fighters in your warband.
 

@@ -3,7 +3,7 @@ title: 'Thralls'
 description: ''
 sidebar: 'rules'
 sources:
-- book: Core Rules
+- book: Warcry Core Rules
   page: "49"
 ---
 import Runemark from '@/components/Runemark.vue'

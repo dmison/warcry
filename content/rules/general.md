@@ -3,8 +3,10 @@ title: 'General Rules'
 description: 'some misc rules'
 sidebar: 'rules'
 sources:
-- book: Core Rules
-  page: "35, 37, 40"
+ - book: Warcry Core Rules
+   page: "35, 37, 40"
+ - book: ERRATA & DESIGNERS’ COMMENTARIES March 2021
+   page: "1"
 ---
 import Runemark from '@/components/Runemark.vue'
 
@@ -22,8 +24,11 @@ Sometimes a rule may require the players to make a roll-off. When this is the ca
 
 Distances in Warcry are measured in inches ("), between the closest points of the bases of the fighters you’re measuring to and from. If a rule requires something to be within a certain range of something else, they are considered to be within if the distance between them is equal to or less than the specified distance. If a rule requires a fighter to be wholly within, every part of that fighter’s base must be within range.
 
-Usually, measuring distances will take into account both the vertical and horizontal distance between two models, but in some cases a rule might specify to measure the horizontal distance, or the vertical distance, only. You can measure distances whenever you wish.
+Usually, measuring distances will take into account both the vertical and horizontal distance between two models, but in some cases, a rule might specify that only the horizontal distance or only the vertical distance is measured.
 
+When a rule requires you to measure the vertical distance only, the distance is rounded up to the nearest half inch. For example, if the vertical distance between two points is 2.6" and a rule requires you to measure the vertical distance between those points, the points would be considered to be 3" apart for the purpose of that rule. Note that distances are only rounded up in this manner and never rounded down.
+
+You can measure distances whenever you wish.
 ## VISIBILITY
 
 Many rules in Warcry require one fighter (usually the target of an attack action or ability) to be visible to another fighter (usually the fighter making the attack action or using the ability).

@@ -30,15 +30,13 @@ module.exports = {
             items: [
               '/rules/',
               '/rules/general/',
+              '/rules/terrain/',
               '/rules/setup/',
               '/rules/battleround/',
               '/rules/abilities/',
-              '/rules/terrain/',
-
             ]
           },
           {
-            title: 'ACTIONS',
             items: [
               '/rules/attackactions/',
               '/rules/disengageaction/',
@@ -51,26 +49,27 @@ module.exports = {
               '/rules/chaoticbeasts/',
               '/rules/heroesallies/',
               '/rules/monsters/',
-              '/rules/thralls/'
+              '/rules/thralls/',
             ]
           },
           {
-            title: 'CAMPAIGNS',
+            title: 'Narrative Play',
             items: [
               '/rules/campaigns/',
               '/rules/campaignquests/',
               '/rules/warbandroster/',
               '/rules/campaignbattles/',
               '/rules/aftermath/',
+              '/rules/lesserartefacts/',
               '/rules/challengebattles/',
               '/rules/fatedquests/',
               '/rules/trialofchampions/'
             ]
           },
           {
-            // title: 'ARTEFACTS',
+            title: 'Open Play',
             items: [
-              '/rules/lesserartefacts/',
+              '/rules/openplayterrain/'
             ]
           },
 
