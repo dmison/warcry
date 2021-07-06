@@ -5,10 +5,15 @@ sidebar: 'rules'
 
 # Warcry Rules
 
-The following rules explain how to play a game of Warcry, taking you through every step of fighting a brutal battle within the blood-soaked lands of the Eightpoints.
+This site contains a condensed version of the Warcry rules.
 
+ - Warcry Core Book
+ - Tomb of Champions 2019
+ - Grand Alliance Books
 
-The following rules material is not included:
+It does not include the campaigns or individual battle material.
+
+Additional the following rules material is not included:
 
  - Warcry Core Book
     - Coalition of Death P53
@@ -21,3 +26,5 @@ The following rules material is not included:
     - Roaming Beats P84
     - Matched Play P102
     - Escalation Tournaments P110
+
+Any text formatted as a block quote is copied verbatim from the source material with the intention to replace it with a summarized version.
