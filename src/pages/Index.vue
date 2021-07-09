@@ -88,10 +88,12 @@ export default {
     MoonIcon,
     SearchIcon
   },
-
+  mounted () {
+    this.$router.push('/rules')
+  },
   metaInfo() {
-    const title = 'Great Documentation starts here';
-    const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
+    const title = 'Warcry Condensed Rules';
+    const description = '';
 
     return {
       title: title,
