@@ -4,9 +4,9 @@ description: ''
 sidebar: 'rules'
 sources:
   - book: Warcry Core Rules
-  page: "44,46,47"
+    page: "44,46,47"
   - book: "ERRATA & DESIGNERS’ COMMENTARIES March 2021"
-  page: "1"
+    page: "1"
 ---
 import BookQuote from '@/components/BookQuote.vue'
 
