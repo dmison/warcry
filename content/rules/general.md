@@ -12,6 +12,11 @@ import Runemark from '@/components/Runemark.vue'
 
 # GENERAL RULES
 
+## ATTACK CHARACTERISTICS
+
+> Sometimes a rule will refer to a characteristic of an attack action (for example, the Attacks characteristic of an attack action). This is simply an alternative way of referring to the corresponding characteristic of the weapon being used to make that attack action, but only for the duration of that attack action.
+
+
 ## RE-ROLLS
 
 A `re-roll` is sometimes allowed by a rule or ability.  A `re-roll` allows you to take on or more of the dice that you just rolled and roll them again.  Rules which allow `re-rolls` will specify exactly how many of the dice can be re-rolled. A dice roll can never be `re-rolled` more than once.

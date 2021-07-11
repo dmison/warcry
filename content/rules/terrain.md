@@ -5,8 +5,6 @@ sidebar: 'rules'
 sources:
   - book: "Warcry Core Rules"
     page: "46,47"
-  - book: "ERRATA & DESIGNERS’ COMMENTARIES March 2021"
-    page: "1"
 
 ---
 import Runemark from '@/components/Runemark.vue'
@@ -21,23 +19,10 @@ import Runemark from '@/components/Runemark.vue'
 
 > Some terrain features, or some parts of terrain features, can be defined as an obstacle. An obstacle is any part of a terrain feature that prevents a fighter from moving horizontally and that extends vertically more than 1"  high from the battlefield floor or the platform upon which it is placed. 
 
-> The target fighter of an attack action receives the benefit of cover if an imaginary line drawn between the closest points on each fighter’s base passes through an obstacle. However, if the fighters are more than 1" away from each other, do not count parts of obstacles within 1⁄2" of the fighter making the attack action (this represents fighters that have weapons with a longer range being able to aim around corners, through gaps in nearby terrain, and so on).
-
-## Cover 
-
-> If a fighter receives the benefit of cover when targeted by an attack action, add 1 to their Toughness characteristic for that attack action. 
 
 ## PLATFORMS 
 
 > Some terrain features, or some parts of a terrain feature, can be defined as a platform. A platform is a horizontally flat surface on a terrain feature with a surface area larger than 1" by 1", that is raised 1" or higher above the battlefield floor. 
-
-> When an attack action targets an enemy fighter that is on a platform, the target fighter of that attack action receives the benefit of cover if the fighter making the attack action is 3" or more vertically below the target fighter. 
-
-### FALLING OFF TERRAIN 
-
-> When an attack action targets an enemy fighter that is within 1⁄2" of the edge of a platform that is open (i.e. an edge that is not enclosed by an obstacle, such as a wall) and scores any critical hits, the target fighter of that attack must take a falling test after the attack action has been resolved. To do so, the player controlling that fighter rolls a dice. On a 1, the fighter is said to have fallen (pg 42). 
-
-> This rule does not affect fighters with the <Runemark mark="Fly" /> runemark. 
 
 ## DEADLY TERRAIN 
 
@@ -54,7 +39,8 @@ import Runemark from '@/components/Runemark.vue'
 > Some terrain features, or parts of terrain features, are said to be stairs or ladders. You can see an example of stairs on page 46. Stairs and ladders are treated as obstacles, with the following exceptions: 
 
 > - Fighters that finish their activation climbing stairs or a ladder are not said to have fallen and can remain part way up stairs or a ladder (if it is not possible to physically place the fighter in their current location, make a note of where they are).  
-> - When an attack action targets an enemy fighter that has ended their activation climbing stairs or a ladder and scores any critical hits, the target fighter must take a falling test (pg 46) after the attack action has been resolved.  
+
+critical hits against a fighter climbing stairs or a ladder can cause them to fall 
 
 ## ARCHWAYS AND DOORS 
 
