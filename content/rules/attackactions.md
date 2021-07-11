@@ -43,7 +43,7 @@ if any enemy fighters are within 1 inch,
 ## CHECK FOR COVER
 
 target gets cover if:
-- target is 3 inches higher than the attacker
+- target is on a platform at least 3 inches higher than the attacker
 - an imaginary line drawn between the closest points on each fighter’s base passes through an obstacle. 
   - if distance > 1 inch, dont include obstacles within 1/2 inch of attacker
 
@@ -77,6 +77,6 @@ any excess damage to the target is lost
  3. target is 
       - within 1/2 inch of platform edge which is not enclosed by an obsatcle
       - climbing stairs or ladder
- 4. target does not gave the <Runemark mark="Fly" /> runemark
+ 4. target does not have the <Runemark mark="Fly" /> runemark
  
 the targets player rolls d6: on a one, the target has fallen over the edge or from its climbing position.
