@@ -6,7 +6,7 @@ sources:
   - book: Warcry Core Rules
     page: "x"
 
-    ---
+---
     
 # Fighter Cards
 
